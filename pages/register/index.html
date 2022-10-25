@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Petinfo - Cadastrar</title>
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/buttons.css">
+    <link rel="stylesheet" href="/styles/colors.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/inputs.css">
+    <link rel="stylesheet" href="/styles/toltip.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>    
+    <main>
+        <section class="left">
+            <a class="button-outline-medium" href="/pages/login/index.html">Voltar para o login</a>
+            <h1 class="font-3">Cadastro</h1>
+            <form>
+                <label class="font-4-bold" for="inputUser">Usuário</label>
+                <input class="font-4 input" id="inputUser" type="text" placeholder="Digite seu usuário aqui">
+                <label class="font-4-bold" for="inputEmail">Email</label>
+                <input class="font-4 input" id="inputEmail" type="email" placeholder="Digite seu email aqui">
+                <label class="font-4-bold" for="inputAvatar">Link da foto de perfil</label>
+                <input class="font-4 input" id="inputAvatar" type="url" placeholder="Insira o link aqui">
+                <label class="font-4-bold" for="inputPassword">Senha</label>
+                <input class="font-4 input" id="inputPassword" type="password" placeholder="Digite sua aqui">
+                <button id="registerButton" class="font-4-bold button-primary" type="submit" disabled>Cadastrar</button>
+            </form>
+            <a class="font-4-bold button-outline" href="/pages/login/index.html">Voltar para o login</a>
+        </section>
+        <section class="right">
+            <h1 class="font-1">Petinfo</h1>
+            <h2 class="font-1 brand100">Ooooooba!</h2>
+            <p class="font-4 grey300">Agora vamos poder contribuir para o bem estar do seu pet por meio do conhecimento</p>
+            <div>
+                <img src="/assets/img/pet1.png" alt="pet">
+                <div>
+                    <div>
+                        <img src="/assets/img/pet2.png" alt="pet">
+                        <img src="/assets/img/pet3.png" alt="pet">
+                    </div>
+                    <img src="/assets/img/pet4.png" alt="pet">
+                </div>                
+            </div>
+        </section>
+    </main>
+    <script type="module" src="index.js"></script>
+</body>
+</html>

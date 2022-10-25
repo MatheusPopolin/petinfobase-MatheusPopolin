@@ -1,0 +1,24 @@
+.brand100{
+    color: var(--brand100);
+}
+.grey200{
+    color: var(--grey200);
+}
+.grey300{
+    color: var(--grey300);
+}
+.grey900{
+    color: var(--grey900);
+}
+.sucess100{
+    color: var(--sucess100);
+}
+.bg-sucess100{
+    background-color: var(--sucess100);
+}
+.alert100{
+    color: var(--alert100);
+}
+.bg-alert100{
+    background-color: var(--alert100);
+}

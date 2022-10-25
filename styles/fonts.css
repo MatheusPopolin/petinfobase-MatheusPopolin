@@ -1,0 +1,56 @@
+.font-1{
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-1);
+    line-height: 150%;
+}
+.font-2{
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-2);
+    line-height: 150%;
+}
+.font-2-bold{
+    font-weight: var(--font-weight-1);
+    font-size: var(--font-size-2);
+    line-height: 150%;    
+}
+.font-3{
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-3);
+    line-height: 150%;
+}
+.font-4{
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-4);
+    line-height: 150%;    
+}
+.font-4-bold{
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-4);
+    line-height: 150%;
+}
+.font-4-bold-underline{
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-4);
+    line-height: 150%;
+    text-decoration-line: underline;    
+}
+.font-5{
+    font-weight: var(--font-weight-2);
+    font-size: var(--font-size-5);
+    line-height: 150%; 
+}
+.font-5-small{
+    font-weight: var(--font-weight-3);
+    font-size: var(--font-size-5);
+    line-height: 150%;
+}
+a{
+    text-decoration: none;
+}
+.link{
+    color: var(--brand100);
+}
+.link:hover{
+    color: var(--brand200);
+    text-decoration-line: underline;
+}

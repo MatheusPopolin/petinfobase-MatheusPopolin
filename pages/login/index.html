@@ -4,10 +4,49 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/globalStyles.css">
+    <link rel="stylesheet" href="/styles/colors.css">
+    <link rel="stylesheet" href="/styles/fonts.css">
+    <link rel="stylesheet" href="/styles/buttons.css">
+    <link rel="stylesheet" href="/styles/inputs.css">
+    <link rel="stylesheet" href="/styles/toltip.css">
+    <link rel="stylesheet" href="index.css">
     <title>Petinfo - Login</title>
 </head>
 <body>
-    <main></main>
+    <main>
+        <section class="left">
+            <h1 class="font-1">Petinfo</h1>
+            <h2 class="font-1"><span class="font-1 brand100">Amor</span> e <span class="font-1 brand100">carinho</span> por meio do conhecimento</h2>
+            <p class="font-4 grey300">Todas as informações para melhorar a vida do seu pet em um só lugar</p>
+            <div>
+                <div>
+                    <div>
+                        <img src="/assets/img/pet5.png" alt="pet">
+                        <img src="/assets/img/pet6.png" alt="pet">
+                    </div>
+                    <img src="/assets/img/pet7.png" alt="pet">
+                </div>
+                <img src="/assets/img/pet8.png" alt="pet">
+            </div>
+        </section>
+        <section class="right">
+            <h1 class="font-3">Login</h1>
+            <form>
+                <label class="font-4-bold" for="inputEmail">Email</label>
+                <input class="font-4 input" id="inputEmail" type="email" placeholder="Digite seu email aqui">
+                <label class="font-4-bold" for="inputPassword">Senha</label>
+                <input class="font-4 input" id="inputPassword" type="password" placeholder="Digite sua aqui">
+                <p id="incorrectPassword" class="font-5-small alert100 none">A senha está incorreta</p>
+                <button class="font-4-bold button-primary" type="submit" disabled id="acessButton">Acessar</button>
+            </form>
+            <div>
+                <h2 class="font-5">Ainda não possui conta?</h2>
+                <p class="font-5-small grey300">Clicando no botão abaixo, você pode se cadastrar rapidamente</p>
+                <a href="/pages/register/index.html" class="font-4-bold button-outline">Cadastrar</a>
+            </div>
+        </section>
+    </main>
     <script type="module" src="index.js"></script>
 </body>
 </html>

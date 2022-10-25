@@ -1,0 +1,12 @@
+1. Estudar o figma - ok
+2. Configurar a API - ok
+3. Estrutura de pastas e arquivos - ok
+4. Arquivos css - ok 
+5. Montar hmtl/css pagina login - ok
+6. Montar html/css pagina cadastro - ok
+7. api ler a doc e testar - ok
+8. criar aqrquivo com as requisições - ok
+9. criar os toasts
+10. 
+    10.1 login (redirecionar homepage)
+    10.2 cadastro (redirecionar login)

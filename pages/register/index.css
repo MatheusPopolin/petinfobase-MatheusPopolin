@@ -1,4 +1,5 @@
 body{
+    position: relative;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -14,30 +15,7 @@ main{
 
 .left{
     width: 50%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 1.5rem;   
-}
-
-.left > div{
-    display: flex;
-    gap: 1.125rem;
-}
-
-.left > div > div{
-    display: flex;
-    flex-direction: column;
-    gap: 1.125rem;
-}
-
-.left > div > div > div{
-    display: flex;
-    gap: 1.125rem;
-}
-
-.right{
-    width: 50%;
+    position: relative;
     background-color: var(--grey900);
     border: 1px solid var(--grey600);
     border-radius: var(--radius-2);
@@ -49,21 +27,34 @@ main{
     padding: 2.75rem 1.5rem;
 }
 
-.right > form{
+.left > form{
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
+}
 
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1.5rem;   
 }
 
 .right > div{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 1.25rem;
+    gap: 1.125rem;
 }
 
-.right > div > p{
-    text-align: center;
+.right > div > div{
+    display: flex;
+    flex-direction: column;
+    gap: 1.125rem;
 }
+
+.right > div > div > div{
+    display: flex;
+    gap: 1.125rem;
+}
+

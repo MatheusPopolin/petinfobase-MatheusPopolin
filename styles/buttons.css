@@ -1,0 +1,124 @@
+.button-primary{
+    width: 100%;
+    height: 2.375rem;    
+    background-color: var(--brand100);
+    opacity: 1;
+    color: var(--grey900);
+    border-style: none;
+    padding: 0px 1rem;
+    border-radius: var(--radius-2);
+    cursor: pointer;    
+}
+.button-primary:hover{
+    background-color: var(--brand200);
+}
+.button-primary:disabled{
+    opacity: 0.5;
+}
+
+.button-grey{
+    height: 2.375rem;    
+    background-color: var(--grey600);
+    color: var(--grey400);
+    border-style: none;
+    padding: 0px 1rem;
+    border-radius: var(--radius-2);
+    cursor: pointer;    
+}
+.button-grey:hover{
+    background-color: var(--brand600);
+    color: var(--grey300);    
+}
+
+.button-alert{
+    height: 2.375rem;    
+    background-color: var(--alert100);
+    color: var(--grey900);
+    border-style: none;
+    padding: 0px 1rem;
+    border-radius: var(--radius-2);
+    cursor: pointer;    
+}
+.button-alert:hover{
+    background-color: var(--alert200);
+}
+
+.button-outline{
+    text-align: center;
+    width: 100%;    
+    background-color: var(--grey900);
+    color: var(--grey100);
+    border: 1px solid var(--grey600);
+    padding: 0.5rem 1rem;
+    border-radius: var(--radius-2);
+    cursor: pointer;    
+}
+.button-outline:hover{
+    background-color: var(--grey800);
+}
+
+.button-medium{
+    height: 2rem;    
+    background-color: var(--grey700);   
+    color: var(--grey400);
+    border-style: none;
+    padding: 0px 0.5rem;
+    border-radius: var(--radius-2);
+    cursor: pointer;   
+}
+.button-medium:hover{
+    background-color: var(--grey600);
+    color: var(--grey300)
+}
+
+.button-outline-medium{
+    position: absolute;
+    top: 2.75rem;
+    right: 1.5rem;   
+    background-color: var(--grey900);
+    color: var(--grey100);
+    border: 1px solid var(--grey600);
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--radius-2);
+    cursor: pointer;    
+}
+.button-outline-medium:hover{
+    background-color: var(--grey800);
+}
+
+.loading{
+    animation: spinner 1s infinite linear;
+}
+@keyframes spinner{
+    0%{
+      transform: rotate(0);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* .button-close{
+    background-color: var(--color-grey-5);
+    color: var(--color-grey-3);
+    border-style: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    position: absolute;
+    top: 11px;
+    right: 15px;
+    cursor: pointer;  
+} */
+    

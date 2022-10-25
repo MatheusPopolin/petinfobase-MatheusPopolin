@@ -1,0 +1,1 @@
+// fazer verificaçao do local storage para nao carregar a pagina
